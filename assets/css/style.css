@@ -6611,7 +6611,203 @@ button.close {
  * Import modules
  */
 h1 {
-  color: red;
+  color: blue;
   text-transform: uppercase; }
+
+body {
+  font-family: 'Lato', sans-serif;
+  background: #f6f7fb; }
+
+h1 {
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 26px;
+  color: #333; }
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 15px 0; }
+  header .logo {
+    float: left;
+    font-size: 26px;
+    color: #fff;
+    font-weight: bold; }
+    header .logo.dark {
+      color: #333; }
+  header .right-part {
+    float: right;
+    color: #fff; }
+
+.btn {
+  display: block;
+  color: #fff;
+  text-transform: uppercase;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  font-weight: bold; }
+  .btn.btn-blue {
+    background: #0076f6; }
+  .btn.btn-red {
+    background: #ff2d56; }
+  .btn.fb-btn {
+    background: #fff;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    color: #0076f6;
+    margin: 0 auto; }
+    .btn.fb-btn i {
+      margin-right: 5px; }
+
+footer {
+  height: 50px;
+  background: #333;
+  color: #fff; }
+
+.top-section {
+  height: 100vh;
+  background: url("../images/bg.png");
+  background-size: 100% 100%;
+  padding: 50px; }
+  .top-section .container {
+    position: relative; }
+    .top-section .container .text {
+      color: #fff;
+      font-size: 100px;
+      font-weight: 900;
+      width: 70%; }
+    .top-section .container .btn-wrapper {
+      position: absolute;
+      right: 150px;
+      top: 60%;
+      transform: translateY(-50%); }
+      .top-section .container .btn-wrapper .btn:first-of-type {
+        margin-bottom: 25px; }
+
+.flex-wrapper {
+  display: flex; }
+
+.form-group.contest {
+  position: relative; }
+  .form-group.contest .form-label {
+    position: absolute;
+    left: 10px;
+    top: -10px;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 0 3px;
+    background: #fff; }
+  .form-group.contest .form-control {
+    border-radius: 15px;
+    box-shadow: none; }
+
+.top-contest-part {
+  margin-top: 100px;
+  position: relative; }
+  .top-contest-part .title {
+    position: absolute;
+    top: 15px; }
+    .top-contest-part .title h1 {
+      font-weight: 900;
+      font-size: 100px;
+      color: #fff; }
+  .top-contest-part .photo {
+    width: 100%;
+    height: 100%; }
+    .top-contest-part .photo img {
+      width: 100%; }
+  .top-contest-part .prize-wrapper {
+    position: absolute;
+    bottom: 25px;
+    color: #fff;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex; }
+    .top-contest-part .prize-wrapper .prize {
+      background: rgba(255, 255, 255, 0.5);
+      color: #333;
+      padding: 30px 50px;
+      margin: 15px; }
+
+.login-wrapper {
+  margin: 100px 0;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  background: #fff; }
+  .login-wrapper .left-part {
+    width: 50%;
+    padding: 60px 100px; }
+    .login-wrapper .left-part h1 {
+      color: #333; }
+    .login-wrapper .left-part .login-form {
+      clear: both;
+      padding: 25px 40px; }
+      .login-wrapper .left-part .login-form .button-wrapper {
+        padding: 0 19px 25px 20px; }
+        .login-wrapper .left-part .login-form .button-wrapper.register {
+          padding: 0; }
+          .login-wrapper .left-part .login-form .button-wrapper.register .btn {
+            margin: 0 auto;
+            float: none; }
+        .login-wrapper .left-part .login-form .button-wrapper a {
+          float: left;
+          margin-right: 15px;
+          margin-top: 12px;
+          font-size: 12px; }
+        .login-wrapper .left-part .login-form .button-wrapper .btn {
+          float: left; }
+    .login-wrapper .left-part .login-with-fb {
+      clear: both;
+      margin: 25px;
+      color: #0076f6; }
+      .login-wrapper .left-part .login-with-fb.register {
+        margin: 0; }
+  .login-wrapper .right-part {
+    width: 50%; }
+    .login-wrapper .right-part .photo {
+      width: 100%;
+      height: 100%; }
+      .login-wrapper .right-part .photo img {
+        max-width: 100%; }
+
+.contest-box-wrapper {
+  display: flex;
+  flex-wrap: wrap; }
+  .contest-box-wrapper .contest-box {
+    display: block;
+    overflow: hidden;
+    margin: 25px;
+    width: 20%;
+    border-radius: 15px;
+    position: relative; }
+    .contest-box-wrapper .contest-box .photo {
+      width: 100%;
+      height: 100%; }
+      .contest-box-wrapper .contest-box .photo img {
+        max-width: 100%; }
+    .contest-box-wrapper .contest-box .bottom-part {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0, 0, 0, 0.3);
+      padding: 10px; }
+      .contest-box-wrapper .contest-box .bottom-part .left-part {
+        float: left;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 300; }
+      .contest-box-wrapper .contest-box .bottom-part .right-part {
+        float: right;
+        color: #fff; }
+        .contest-box-wrapper .contest-box .bottom-part .right-part .avatar {
+          display: inline-block; }
+          .contest-box-wrapper .contest-box .bottom-part .right-part .avatar img {
+            height: 40px;
+            width: 40px;
+            border-radius: 50%; }
+        .contest-box-wrapper .contest-box .bottom-part .right-part .name {
+          font-weight: 300;
+          display: inline-block; }
 
 /*# sourceMappingURL=style.css.map */
